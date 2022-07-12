@@ -25,8 +25,10 @@ DEFAULT_PROGRAM_NUMBER = 1
 
 # Default timeouts and retries
 DEFAULT_TIMEOUT = 10.0 # seconds
-DEFAULT_SDO_TIMEOUT = 0.3 # seconds
-DEFAULT_SDO_RETRIES = 1
+DEFAULT_SDO_TIMEOUT = 10.0 # seconds
+DEFAULT_SDO_RETRIES = 5
+#DEFAULT_SDO_TIMEOUT = 0.3 # seconds
+#DEFAULT_SDO_RETRIES = 1
 
 # Object dictionary indexes
 H1F50_PROGRAM_DATA = 0x1F50

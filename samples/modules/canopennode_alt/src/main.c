@@ -205,7 +205,7 @@ void main(void)
 	int ret;
 #endif /* CONFIG_CANOPENNODE_STORAGE */
 
-	LOG_INF("##### APP-1 IS RUNNING #####");
+	LOG_INF("##### APP-2 IS RUNNING #####");
 	
 	can.dev = CAN_INTERFACE;
 	if (!device_is_ready(can.dev)) {
